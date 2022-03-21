@@ -1,0 +1,42 @@
+
+.footer{
+    background: var(--green) !important;
+    color: var(--white) !important;
+    width: 100%  !important;
+    margin: 0 auto  !important;
+    padding: 0px !important;
+    box-shadow: none !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+    flex-direction: row !important;
+    border-radius: 0px !important;
+}
+
+.footer .box{
+    width: 20% !important;
+    background:transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+.footer .box mat-list mat-list-item {
+    text-align: center !important;
+    padding: 0 !important;
+}
+
+
+.footer .box mat-list {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    justify-items: center !important;
+}
+
+/* ################ Copyright Section ###########  */
+
+.Copyright{
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+

@@ -1,0 +1,56 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+ 
+ 
+ .top-banner{
+     background: url(../../../assets/img/bg1.webp) !important;
+     background-repeat: no-repeat !important;
+     background-size: cover !important;
+     padding: 0 !important;
+     border-radius: 0 !important;
+     box-shadow: none !important;
+     position: relative !important;
+     min-height: 577px !important;
+ }
+
+ .top-banner .content{
+     background: transparent !important;
+     box-shadow: none  !important;
+     position: absolute !important;
+     top:  200px !important;
+     left: 100px !important;
+
+ }
+
+ .top-banner .content .tag{
+    color: var(--green) !important;
+    font-family: 'Hurricane';
+    font-size: 85px !important;
+ }
+
+
+ .top-banner .content .btn-1{
+    background: var(--green) !important;
+    color: var(--white) !important;
+    font-size: 15px !important;
+ }
+
+ /* ################ Second  Section ############ */
+
+ .second-section{
+     background: transparent !important;
+     box-shadow: none !important;
+     border-radius: 0px !important;
+     display: flex !important;
+     justify-content: space-around !important;
+     flex-direction: row !important;
+     flex-wrap: wrap !important;
+     padding: 33px !important;
+     
+ }
+
+ .second-section .box{
+     box-shadow: none !important;
+     width: 22% !important;
+     padding: 0px !important;
+ }

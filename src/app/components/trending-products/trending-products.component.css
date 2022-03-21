@@ -1,0 +1,108 @@
+.trendingProduct{
+    box-shadow: none !important;
+
+}
+
+.trendingProduct .heading{
+    box-shadow: none !important;
+    text-align: center !important;
+    margin: 0 !important;
+}
+
+.trendingProduct .heading h4{
+    color: var(--green) !important;
+    margin: 0 0 0px !important;
+}
+
+.trendingProduct .heading h1{
+    font-size: 25px !important;
+    font-weight: medium!important;
+}
+
+
+.products-box-wrapper{
+    /* background: red !important; */
+    box-shadow: none !important;
+    padding: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+    justify-items: center !important;
+
+}
+
+
+.products-box{
+    padding: 0 !important;
+    box-shadow: none !important;
+    width: 22% !important;
+
+}
+
+.products-box .product{
+     box-shadow: none !important;
+     position: relative !important;
+     padding: 0 !important;
+}
+
+.products-box-wrapper .products-box .product{
+    overflow: inherit;
+    /* background: red; */
+    min-width: fit-content;
+}
+
+.products-box .product .product-img{
+    width: 291px !important;
+}
+
+.products-box .action-btns{
+    display: none; 
+    cursor: pointer !important;
+    background: transparent !important;
+    position: absolute !important;
+    bottom: 57px !important;
+    left: 26px !important;
+    padding: 10px !important;
+    box-shadow: none !important;
+}
+
+.products-box .action-btns button{
+    margin: 6px 4px !important;
+}
+
+.products-box:hover .action-btns{
+    display: flex !important;
+}
+
+.product-info{
+    background: #f9f9f9 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 12px !important;
+    text-align: center !important;
+    margin: -7px 0 0 0 !important;
+}
+
+.product-info h3, h4{
+    margin: 0 !important;
+}
+
+.toogle-product{
+    box-shadow: none !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    padding: 5px !important;
+}
+.toogle-product mat-list{
+    display: flex !important;
+    width: auto !important;
+    padding: 0 !important;
+}
+
+.toogle-product mat-list mat-list-item {
+    cursor: pointer !important;
+    width: auto !important;
+}
