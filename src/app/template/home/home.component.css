@@ -54,3 +54,35 @@
      width: 22% !important;
      padding: 0px !important;
  }
+
+
+ /* ######################################### */
+
+ .third-section{
+     background-image: url(../../../assets/img/prallex.webp) !important;
+     background-repeat: no-repeat !important;
+     background-attachment: fixed !important;
+     background-size: cover!important;
+     box-shadow: none !important;
+     border-radius: 0px !important;
+     min-height: 490px !important;
+     display: flex !important;
+     flex-direction: row !important;
+     justify-content: right !important;
+     justify-items: right !important;
+     
+ }
+
+ .third-section .content{
+     background: transparent !important;
+     box-shadow: none !important;
+     width: 380px !important;
+     margin: 150px 0 0 0 !important;
+
+ }
+
+ .third-section .content .heading{
+    color: var(--green) !important;
+    font-family: 'Hurricane' !important;
+    font-size: 85px !important;
+ }

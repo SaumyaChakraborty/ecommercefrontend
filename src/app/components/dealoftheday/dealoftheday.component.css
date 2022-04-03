@@ -1,0 +1,89 @@
+
+.container{
+    border-radius: 0px !important;
+    box-shadow: none  !important;
+}
+
+
+
+.container .heading-wrapper .heading{
+    color: var(--green) !important;
+    font-family: 'Hurricane' !important;
+    font-size: 65px !important;
+}
+
+.container .heading-wrapper{
+    text-align: center !important;
+    box-shadow: none !important;
+
+}
+
+
+.content{
+    box-shadow: none !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    /* flex-wrap: wrap !important;
+    padding: 0 !important; */
+}
+
+.content .img-slide{
+    box-shadow: none  !important;
+
+}
+
+.content .img-slide .img {
+    width: 400px !important;
+}
+
+.container .content .info{
+    box-shadow: none !important;
+}
+
+.info .price span{
+    text-decoration: line-through !important;
+}
+
+.usp{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    padding: 0 !important;
+}
+
+.usp .box{
+    box-shadow: none !important;
+    border-radius: 0px !important;
+}
+
+.btn-grp{
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+    margin: 10px 0 0 0 !important;
+}
+
+.btn-grp button{
+    margin: 3px !important;
+}
+
+.btn-grp .btn2{
+     background: var(--green)  !important;
+     color: var(--white) !important;
+}
+
+.btn-grp .btn1{
+    background: var(--black)  !important;
+    color: var(--white) !important;
+}
+
+.trust{
+    box-shadow: none !important;
+}
+
+.usp .box h3{
+    margin: 0 !important;
+}

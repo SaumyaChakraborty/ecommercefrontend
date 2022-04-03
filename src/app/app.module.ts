@@ -9,6 +9,7 @@ import { AboutComponent } from './template/about/about.component';
 import { ContactComponent } from './template/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TrendingProductsComponent } from './components/trending-products/trending-products.component';
+import { DealofthedayComponent } from './components/dealoftheday/dealoftheday.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { TrendingProductsComponent } from './components/trending-products/trendi
     AboutComponent,
     ContactComponent,
     TrendingProductsComponent,
+    DealofthedayComponent
   ],
   imports: [
     BrowserModule,
